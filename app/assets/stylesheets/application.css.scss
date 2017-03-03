@@ -17,7 +17,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-body, .navbar{
+.home-callout, .navbar{
   //gradient provided by @_ighosh at uiGradients.com
   background: #50C9C3; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#50C9C3), to(#96DEDA));
@@ -26,6 +26,14 @@ body, .navbar{
   background: -o-linear-gradient(to left, #50C9C3, #96DEDA);
   background: linear-gradient(to left, #50C9C3, #96DEDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
+}
+
+.home-callout{
+  color:white;
+  margin-top:-20px;
+  padding-top:50px;
+  padding-bottom:100px;
+  
 }
 .navbar {
   border:none;
