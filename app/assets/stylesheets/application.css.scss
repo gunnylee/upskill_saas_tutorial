@@ -61,13 +61,14 @@
   background-color:white;
 
 }
-
 .navbar-default .navbar-toggle {
   border:2px solid white;
   &:hover, &:focus{
     background-color:#96DEDA;
   }
 }
+
+
 // Typography Styles
 h1,h2,h3 {
   font-family: 'Open Sans', san-serif;
